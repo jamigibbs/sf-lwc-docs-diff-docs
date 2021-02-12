@@ -17,9 +17,11 @@ code_clipboard: true
 
 # LWC Docs Diff
 
-This document highlights changes or updates made in the [Salesforce Component Reference](https://developer.salesforce.com/docs/component-library/overview/components) document for **Lightning Web Components**. The diffs are generated using the [sf-lwc-docs-diff](https://github.com/jamigibbs/sf-lwc-docs-diff) script.
+These docs highlights changes or updates made in the [Salesforce Component Reference](https://developer.salesforce.com/docs/component-library/overview/components) documentation and specifications for **Lightning Web Components**. The diffs are generated using the [sf-lwc-docs-diff](https://github.com/jamigibbs/sf-lwc-docs-diff) script.
 
-# Feb 5, 2021
+When a new diff is found, a new section will be created with each component that has had content added, removed, or updated. It's possible that this is not an exhuastive list so make sure to check the official docs before relying on this.
+
+# Updates: Feb 5, 2021
 
 ## lightning-button
 
