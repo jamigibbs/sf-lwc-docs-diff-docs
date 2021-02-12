@@ -1,6 +1,6 @@
 **Salesforce Lightning Web Components (LWC) Documentation Diff Documentation (yep, that's right.)**
 
-These documentations highlight what has changed in the LWC documentations for individual components.
+These docs will highlight what has changed in the LWC docs & specs for individual components.
 
 <p align="center"><a href="http://jamigibbs.github.io/sf-lwc-docs-diff-docs">View the documentation</a></p>
 
