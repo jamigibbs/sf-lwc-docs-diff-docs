@@ -2,8 +2,8 @@
 
 These documentations highlight what has changed in the LWC documentations for individual components.
 
-[View the diff documentation](http://jamigibbs.github.io/sf-lwc-docs-diff-docs)
+<p align="center">[View the documentation](http://jamigibbs.github.io/sf-lwc-docs-diff-docs)</p>
 
-The diffs were generated with [this script](https://github.com/jamigibbs/sf-lwc-docs-diff) using node and puppeteer.
+<p align="center"><img src="https://raw.githubusercontent.com/jamigibbs/sf-lwc-docs-diff-docs/main/screenshot.png" width="700" alt="Screenshot of Documentation"></p>
 
-<p align="center"><img src="https://raw.githubusercontent.com/jamigibbs/sf-lwc-docs-diff-docs/main/screenshot.png" alt="Screenshot of Documentation"></p>
+<p align="center"><em>The diffs were generated with [this script](https://github.com/jamigibbs/sf-lwc-docs-diff) using node and puppeteer.</em></p>
