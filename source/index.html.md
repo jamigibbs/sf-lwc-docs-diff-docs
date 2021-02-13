@@ -5,7 +5,8 @@ language_tabs: # must be one of https://git.io/vQNgJ
   - javascript
 
 toc_footers:
-  - <a href='https://github.com/jamigibbs/sf-lwc-docs-diff-docs'>Github repo</a>
+  - <a href='https://github.com/jamigibbs/sf-lwc-docs-diff-docs'>Docs Github repo</a>
+  - <a href='https://github.com/jamigibbs/sf-lwc-docs-diff'>Diff script Github repo</a>
 
 # includes:
 #   - errors
@@ -17,9 +18,9 @@ code_clipboard: true
 
 # LWC Docs Diff
 
-These docs highlights changes or updates made in the [Salesforce Component Reference](https://developer.salesforce.com/docs/component-library/overview/components) documentation and specifications for **Lightning Web Components**. The diffs are generated using the [sf-lwc-docs-diff](https://github.com/jamigibbs/sf-lwc-docs-diff) script.
+These docs highlights changes or updates made in the [Salesforce Component Reference](https://developer.salesforce.com/docs/component-library/overview/components) documentation and specifications for **Lightning Web Components**.
 
-When a new diff is found, a new section will be created with each component that has had content added, removed, or updated. It's possible that this is not an exhuastive list so make sure to check the official docs before relying on this.
+When a new diff is found, a new section will be created with each component that has had content added, removed, or updated. It's possible that this isn't an exhuastive list so make sure to check the official docs before relying on it. 
 
 # Updates: Feb 5, 2021
 
