@@ -32,6 +32,8 @@ _All of the Accessibility for Custom Data Types information was removed and repl
 
 Accessibility and keyboard navigation on custom data types are currently not supported.
 
+Link to [lightning-datatable documentation](https://developer.salesforce.com/docs/component-library/bundle/lightning-datatable/documentation)
+
 [Reference the diff here](https://github.com/jamigibbs/sf-lwc-docs-diff/commit/392f1e1ce29412196aa72d2b04379659ec9d33ab#diff-fc03c29ad2b8ccb62e712a25616a0df5bb3072d88af5b7ca880121d214702462)
 
 ## lightning-file-upload
@@ -49,6 +51,9 @@ Link to [lightning-file-upload documentation](https://developer.salesforce.com/d
 Comma-separated list of file extensions that can be uploaded in the format ['.ext'], such as ['.pdf', '.jpg', '.png'].
 
 Link to [lightning-file-upload specifications](https://developer.salesforce.com/docs/component-library/bundle/lightning-file-upload/specification)
+
+[Reference the diff here](https://github.com/jamigibbs/sf-lwc-docs-diff/commit/392f1e1ce29412196aa72d2b04379659ec9d33ab#diff-c596ed286dcd523972aa1a48ebdea0020a2b020836e12ca15197be0d052563e8)
+
 
 # Updates: Feb 5, 2021
 
