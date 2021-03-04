@@ -22,6 +22,34 @@ These docs highlights changes or updates made in the [Salesforce Component Refer
 
 When a new diff is found, a new section will be created with each component that has had content added, removed, or updated. It's possible that this isn't an exhuastive list so make sure to check the official docs before relying on it. 
 
+# Updates: Mar 3, 2021
+
+## lightning-datatable
+
+### Documentation
+
+_All of the Accessibility for Custom Data Types information was removed and replaced with:_
+
+Accessibility and keyboard navigation on custom data types are currently not supported.
+
+[Reference the diff here](https://github.com/jamigibbs/sf-lwc-docs-diff/commit/392f1e1ce29412196aa72d2b04379659ec9d33ab#diff-fc03c29ad2b8ccb62e712a25616a0df5bb3072d88af5b7ca880121d214702462)
+
+## lightning-file-upload
+
+### Documentation
+
+When a guest user uploads files, the returned list includes only the name` and `ContentVersionId`.
+
+`ContentVersionId`: The ContentVersion Id in the format `068XXXXXXXXXXXX`.
+
+Link to [lightning-file-upload documentation](https://developer.salesforce.com/docs/component-library/bundle/lightning-file-upload/documentation)
+
+### Specification
+
+Comma-separated list of file extensions that can be uploaded in the format ['.ext'], such as ['.pdf', '.jpg', '.png'].
+
+Link to [lightning-file-upload specifications](https://developer.salesforce.com/docs/component-library/bundle/lightning-file-upload/specification)
+
 # Updates: Feb 5, 2021
 
 ## lightning-button
@@ -915,31 +943,3 @@ For a recipe that uses `lightning/uiRecordApi`, see the following components in 
 - `c-wire-get-record-dynamic-contact`
 - `c-wire-get-record-static-contact`
 - `c-wire-get-record-user`
-
-# Updates: Mar 3, 2021
-
-## lightning-datatable
-
-### Documentation
-
-_All of the Accessibility for Custom Data Types information was removed and replaced with:_
-
-Accessibility and keyboard navigation on custom data types are currently not supported.
-
-[Reference the diff here](https://github.com/jamigibbs/sf-lwc-docs-diff/commit/392f1e1ce29412196aa72d2b04379659ec9d33ab#diff-fc03c29ad2b8ccb62e712a25616a0df5bb3072d88af5b7ca880121d214702462)
-
-## lightning-file-upload
-
-### Documentation
-
-When a guest user uploads files, the returned list includes only the name` and `ContentVersionId`.
-
-`ContentVersionId`: The ContentVersion Id in the format `068XXXXXXXXXXXX`.
-
-Link to [lightning-file-upload documentation](https://developer.salesforce.com/docs/component-library/bundle/lightning-file-upload/documentation)
-
-### Specification
-
-Comma-separated list of file extensions that can be uploaded in the format ['.ext'], such as ['.pdf', '.jpg', '.png'].
-
-Link to [lightning-file-upload specifications](https://developer.salesforce.com/docs/component-library/bundle/lightning-file-upload/specification)
