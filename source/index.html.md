@@ -38,7 +38,7 @@ Accessibility and keyboard navigation on custom data types are currently not sup
 
 ### Documentation
 
-When a guest user uploads files, the returned list includes only the name` and `ContentVersionId`.
+When a guest user uploads files, the returned list includes only the `name` and `ContentVersionId`.
 
 `ContentVersionId`: The ContentVersion Id in the format `068XXXXXXXXXXXX`.
 
