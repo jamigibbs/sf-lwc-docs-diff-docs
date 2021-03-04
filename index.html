@@ -323,6 +323,17 @@
             <a href="#lwc-docs-diff" class="toc-h1 toc-link" data-title="LWC Docs Diff">LWC Docs Diff</a>
           </li>
           <li>
+            <a href="#updates-mar-3-2021" class="toc-h1 toc-link" data-title="Updates: Mar 3, 2021">Updates: Mar 3, 2021</a>
+              <ul class="toc-list-h2">
+                  <li>
+                    <a href="#lightning-datatable" class="toc-h2 toc-link" data-title="lightning-datatable">lightning-datatable</a>
+                  </li>
+                  <li>
+                    <a href="#lightning-file-upload" class="toc-h2 toc-link" data-title="lightning-file-upload">lightning-file-upload</a>
+                  </li>
+              </ul>
+          </li>
+          <li>
             <a href="#updates-feb-5-2021" class="toc-h1 toc-link" data-title="Updates: Feb 5, 2021">Updates: Feb 5, 2021</a>
               <ul class="toc-list-h2">
                   <li>
@@ -332,7 +343,7 @@
                     <a href="#lightning-combobox" class="toc-h2 toc-link" data-title="lightning-combobox">lightning-combobox</a>
                   </li>
                   <li>
-                    <a href="#lightning-datatable" class="toc-h2 toc-link" data-title="lightning-datatable">lightning-datatable</a>
+                    <a href="#lightning-datatable-2" class="toc-h2 toc-link" data-title="lightning-datatable">lightning-datatable</a>
                   </li>
                   <li>
                     <a href="#lightning-formatted-date-time" class="toc-h2 toc-link" data-title="lightning-formatted-date-time">lightning-formatted-date-time</a>
@@ -405,17 +416,6 @@
                   </li>
               </ul>
           </li>
-          <li>
-            <a href="#updates-mar-3-2021" class="toc-h1 toc-link" data-title="Updates: Mar 3, 2021">Updates: Mar 3, 2021</a>
-              <ul class="toc-list-h2">
-                  <li>
-                    <a href="#lightning-datatable-2" class="toc-h2 toc-link" data-title="lightning-datatable">lightning-datatable</a>
-                  </li>
-                  <li>
-                    <a href="#lightning-file-upload" class="toc-h2 toc-link" data-title="lightning-file-upload">lightning-file-upload</a>
-                  </li>
-              </ul>
-          </li>
       </ul>
         <ul class="toc-footer">
             <li><a href='https://github.com/jamigibbs/sf-lwc-docs-diff-docs'>Docs Github repo</a></li>
@@ -429,7 +429,23 @@
 <p>These docs highlights changes or updates made in the <a href="https://developer.salesforce.com/docs/component-library/overview/components">Salesforce Component Reference</a> documentation and specifications for <strong>Lightning Web Components</strong>.</p>
 
 <p>When a new diff is found, a new section will be created with each component that has had content added, removed, or updated. It&#39;s possible that this isn&#39;t an exhuastive list so make sure to check the official docs before relying on it. </p>
-<h1 id='updates-feb-5-2021'>Updates: Feb 5, 2021</h1><h2 id='lightning-button'>lightning-button</h2><h3 id='documentation'>Documentation</h3>
+<h1 id='updates-mar-3-2021'>Updates: Mar 3, 2021</h1><h2 id='lightning-datatable'>lightning-datatable</h2><h3 id='documentation'>Documentation</h3>
+<p><em>All of the Accessibility for Custom Data Types information was removed and replaced with:</em></p>
+
+<p>Accessibility and keyboard navigation on custom data types are currently not supported.</p>
+
+<p><a href="https://github.com/jamigibbs/sf-lwc-docs-diff/commit/392f1e1ce29412196aa72d2b04379659ec9d33ab#diff-fc03c29ad2b8ccb62e712a25616a0df5bb3072d88af5b7ca880121d214702462">Reference the diff here</a></p>
+<h2 id='lightning-file-upload'>lightning-file-upload</h2><h3 id='documentation-2'>Documentation</h3>
+<p>When a guest user uploads files, the returned list includes only the <code>name</code> and <code>ContentVersionId</code>.</p>
+
+<p><code>ContentVersionId</code>: The ContentVersion Id in the format <code>068XXXXXXXXXXXX</code>.</p>
+
+<p>Link to <a href="https://developer.salesforce.com/docs/component-library/bundle/lightning-file-upload/documentation">lightning-file-upload documentation</a></p>
+<h3 id='specification'>Specification</h3>
+<p>Comma-separated list of file extensions that can be uploaded in the format [&#39;.ext&#39;], such as [&#39;.pdf&#39;, &#39;.jpg&#39;, &#39;.png&#39;].</p>
+
+<p>Link to <a href="https://developer.salesforce.com/docs/component-library/bundle/lightning-file-upload/specification">lightning-file-upload specifications</a></p>
+<h1 id='updates-feb-5-2021'>Updates: Feb 5, 2021</h1><h2 id='lightning-button'>lightning-button</h2><h3 id='documentation-3'>Documentation</h3>
 <p>Link to <a href="https://developer.salesforce.com/docs/component-library/bundle/lightning-button/documentation">lightning-button documention</a></p>
 
 <p>Accessibility addition:</p>
@@ -447,7 +463,7 @@
 <td>Indicates the type of popup element, such as menu or dialog, that can be triggered by the button. See <a href="https://www.w3.org/TR/wai-aria/#aria-haspopup">aria-haspopup</a> for supported values.</td>
 </tr>
 </tbody></table>
-<h2 id='lightning-combobox'>lightning-combobox</h2><h3 id='documentation-2'>Documentation</h3>
+<h2 id='lightning-combobox'>lightning-combobox</h2><h3 id='documentation-4'>Documentation</h3>
 <p>Link to <a href="https://developer.salesforce.com/docs/component-library/bundle/lightning-combobox/documentation">lightning-combobox documention</a></p>
 
 <p><strong>Usage Considerations</strong></p>
@@ -461,7 +477,7 @@
 <li>The mobile viewport doesn&#39;t display the dropdown menu correctly especially if the component is placed near the bottom of the page.
 We recommend using the HTML <code>&lt;select&gt;</code> element on mobile instead.</li>
 </ul>
-<h3 id='specification'>Specification</h3>
+<h3 id='specification-2'>Specification</h3>
 <p>Link to <a href="https://developer.salesforce.com/docs/component-library/bundle/lightning-combobox/specification">lightning-combobox specifications</a></p>
 
 <table><thead>
@@ -482,7 +498,7 @@ We recommend using the HTML <code>&lt;select&gt;</code> element on mobile instea
 <td>Specifies where the drop-down list is aligned with or anchored to the selection field. By default the list is aligned with the selection field at the top left so the list opens down. Use bottom-left to make the selection field display at the bottom so the list opens above it. Use auto to let the component determine where to open the list based on space available.</td>
 </tr>
 </tbody></table>
-<h2 id='lightning-datatable'>lightning-datatable</h2><div class="highlight"><pre class="highlight javascript tab-javascript"><code><span class="kd">const</span> <span class="nx">columns</span> <span class="o">=</span> <span class="p">[</span>
+<h2 id='lightning-datatable-2'>lightning-datatable</h2><div class="highlight"><pre class="highlight javascript tab-javascript"><code><span class="kd">const</span> <span class="nx">columns</span> <span class="o">=</span> <span class="p">[</span>
      <span class="p">{</span><span class="na">label</span><span class="p">:</span> <span class="dl">'</span><span class="s1">Opportunity name</span><span class="dl">'</span><span class="p">,</span> <span class="na">fieldName</span><span class="p">:</span> <span class="dl">'</span><span class="s1">opportunityName</span><span class="dl">'</span><span class="p">,</span> <span class="na">type</span><span class="p">:</span> <span class="dl">'</span><span class="s1">text</span><span class="dl">'</span><span class="p">},</span>
      <span class="p">{</span><span class="na">label</span><span class="p">:</span> <span class="dl">'</span><span class="s1">Confidence</span><span class="dl">'</span><span class="p">,</span> <span class="na">fieldName</span><span class="p">:</span> <span class="dl">'</span><span class="s1">confidence</span><span class="dl">'</span><span class="p">,</span> <span class="na">type</span><span class="p">:</span> <span class="dl">'</span><span class="s1">percent</span><span class="dl">'</span><span class="p">,</span> <span class="na">cellAttributes</span><span class="p">:</span>
      <span class="p">{</span> <span class="na">iconName</span><span class="p">:</span> <span class="p">{</span> <span class="na">fieldName</span><span class="p">:</span> <span class="dl">'</span><span class="s1">trendIcon</span><span class="dl">'</span> <span class="p">},</span> <span class="na">iconPosition</span><span class="p">:</span> <span class="dl">'</span><span class="s1">right</span><span class="dl">'</span> <span class="p">}},</span>
@@ -490,7 +506,7 @@ We recommend using the HTML <code>&lt;select&gt;</code> element on mobile instea
      <span class="p">{</span><span class="na">label</span><span class="p">:</span> <span class="dl">'</span><span class="s1">Contact Email</span><span class="dl">'</span><span class="p">,</span> <span class="na">fieldName</span><span class="p">:</span> <span class="dl">'</span><span class="s1">contact</span><span class="dl">'</span><span class="p">,</span> <span class="na">type</span><span class="p">:</span> <span class="dl">'</span><span class="s1">email</span><span class="dl">'</span><span class="p">},</span>
      <span class="p">{</span><span class="na">label</span><span class="p">:</span> <span class="dl">'</span><span class="s1">Contact Phone</span><span class="dl">'</span><span class="p">,</span> <span class="na">fieldName</span><span class="p">:</span> <span class="dl">'</span><span class="s1">phone</span><span class="dl">'</span><span class="p">,</span> <span class="na">type</span><span class="p">:</span> <span class="dl">'</span><span class="s1">phone</span><span class="dl">'</span><span class="p">},</span>
 <span class="p">];</span>
-</code></pre></div><h3 id='documentation-3'>Documentation</h3>
+</code></pre></div><h3 id='documentation-5'>Documentation</h3>
 <p>Link to <a href="https://developer.salesforce.com/docs/component-library/bundle/lightning-datatable/documentation">lightning-datatable documentation</a></p>
 
 <table><thead>
@@ -543,7 +559,7 @@ We recommend using the HTML <code>&lt;select&gt;</code> element on mobile instea
 <p><strong>Creating Header Actions</strong></p>
 
 <p>If <code>hideDefaultActions</code> is set to true on a column that has custom header actions, the &quot;Clip text&quot; and &quot;Wrap text&quot; actions are removed from the actions dropdown menu, and the content is clipped by default. To wrap text when the default actions are hidden, set <code>wrapText: true</code> in the column definition.</p>
-<h3 id='specification-2'>Specification</h3>
+<h3 id='specification-3'>Specification</h3>
 <p>Link to <a href="https://developer.salesforce.com/docs/component-library/bundle/lightning-datatable/specification">lightning-datatable specifications</a></p>
 
 <table><thead>
@@ -569,7 +585,7 @@ We recommend using the HTML <code>&lt;select&gt;</code> element on mobile instea
 <td>The width to resize the column when a user presses left or right arrow. The default is 10px.</td>
 </tr>
 </tbody></table>
-<h2 id='lightning-formatted-date-time'>lightning-formatted-date-time</h2><h3 id='documentation-4'>Documentation</h3>
+<h2 id='lightning-formatted-date-time'>lightning-formatted-date-time</h2><h3 id='documentation-6'>Documentation</h3>
 <p>Link to <a href="https://developer.salesforce.com/docs/component-library/bundle/lightning-formatted-date-time/documentation">lightning-formatted-date-time</a></p>
 
 <p><strong>LWC Recipes</strong></p>
@@ -577,7 +593,7 @@ We recommend using the HTML <code>&lt;select&gt;</code> element on mobile instea
 <p>The <a href="https://github.com/trailheadapps/lwc-recipes">LWC Recipes GitHub repository</a> contains code examples for Lightning Web Components that you can test in an org.</p>
 
 <p>For a recipe that uses <code>lightning-formatted-date-time</code>, see the <code>c-clock</code> component.</p>
-<h2 id='lightning-formatted-email'>lightning-formatted-email</h2><h3 id='documentation-5'>Documentation</h3>
+<h2 id='lightning-formatted-email'>lightning-formatted-email</h2><h3 id='documentation-7'>Documentation</h3>
 <p>Link to <a href="https://developer.salesforce.com/docs/component-library/bundle/lightning-formatted-email/documentation">lightning-formatted-email documentation</a></p>
 
 <p><strong>LWC Recipes</strong></p>
@@ -590,7 +606,7 @@ We recommend using the HTML <code>&lt;select&gt;</code> element on mobile instea
 <li><code>c-nav-to-record</code></li>
 <li><code>c-wire-get-record-user</code></li>
 </ul>
-<h2 id='lightning-formatted-number'>lightning-formatted-number</h2><h3 id='documentation-6'>Documentation</h3>
+<h2 id='lightning-formatted-number'>lightning-formatted-number</h2><h3 id='documentation-8'>Documentation</h3>
 <p>Link to <a href="https://developer.salesforce.com/docs/component-library/bundle/lightning-formatted-number/documentation">lightning-formatted-email documentation</a></p>
 
 <p>The locale set in your Salesforce user settings determines where to display spaces, commas, and periods in numbers, and the currency used by default. See the <strong>Usage Considerations</strong> section for limitations in some locales.</p>
@@ -606,7 +622,7 @@ We recommend using the HTML <code>&lt;select&gt;</code> element on mobile instea
 <p>The LWC Recipes GitHub repository contains code examples for Lightning Web Components that you can test in an org.</p>
 
 <p>For a recipe that uses <code>lightning-formatted-date-time</code>, see the <code>c-misc-shared-javascript</code> component.</p>
-<h2 id='lightning-formatted-phone'>lightning-formatted-phone</h2><h3 id='documentation-7'>Documentation</h3>
+<h2 id='lightning-formatted-phone'>lightning-formatted-phone</h2><h3 id='documentation-9'>Documentation</h3>
 <p>Link to <a href="https://developer.salesforce.com/docs/component-library/bundle/lightning-formatted-phone/documentation">lightning-formatted-phone documentation</a></p>
 
 <p>To display the phone number in plain text without a hyperlink, include the disabled attribute. Disabling the phone number also prevents setting focus on the phone number using the Tab key.</p>
@@ -624,7 +640,7 @@ We recommend using the HTML <code>&lt;select&gt;</code> element on mobile instea
 <li>c-contact-tile</li>
 <li>c-event-bubbling</li>
 </ul>
-<h3 id='specification-3'>Specification</h3>
+<h3 id='specification-4'>Specification</h3>
 <p>Link to <a href="https://developer.salesforce.com/docs/component-library/bundle/lightning-formatted-phone/specification">lightning-formatted-phone specification</a></p>
 
 <table><thead>
@@ -640,7 +656,7 @@ We recommend using the HTML <code>&lt;select&gt;</code> element on mobile instea
 <td>If present, the phone number displays as plain text instead of a link. The number cannot be clicked or receive focus.</td>
 </tr>
 </tbody></table>
-<h2 id='lightning-formatted-url'>lightning-formatted-url</h2><h3 id='documentation-8'>Documentation</h3>
+<h2 id='lightning-formatted-url'>lightning-formatted-url</h2><h3 id='documentation-10'>Documentation</h3>
 <p>Link to <a href="https://developer.salesforce.com/docs/component-library/bundle/lightning-formatted-url/documentation">lightning-formatted-url documentation</a></p>
 
 <p><strong>Specifying a Target</strong></p>
@@ -653,15 +669,15 @@ We recommend using the HTML <code>&lt;select&gt;</code> element on mobile instea
 <p><strong>Usage Considerations</strong></p>
 
 <p>We recommend using absolute URLs where possible as they can prevent duplicate content to improve search engine optimization. Having your internal links as relative URLs can also expose the structure of your website.</p>
-<h2 id='lightning-input-address'>lightning-input-address</h2><h3 id='documentation-9'>Documentation</h3>
+<h2 id='lightning-input-address'>lightning-input-address</h2><h3 id='documentation-11'>Documentation</h3>
 <p>Link to <a href="https://developer.salesforce.com/docs/component-library/bundle/lightning-input-address/documentation">lightning-input-address documentation</a></p>
 
 <p><strong>Using Lookup to Find and Autofill an Address</strong> (header title was updated to this from &quot;Using Autocomplete to Autofill an Address&quot; <a href="https://github.com/jamigibbs/sf-lwc-docs-diff/commit/65676d94c5c20b73c14677a15b7a079f758e08ff#diff-72f25198df988156527f0eecbb924f2970a60104bf29b2edaa75de2053d5ae40L84">git link</a>):</p>
-<h2 id='lightning-input-rich-text'>lightning-input-rich-text</h2><h3 id='documentation-10'>Documentation</h3>
+<h2 id='lightning-input-rich-text'>lightning-input-rich-text</h2><h3 id='documentation-12'>Documentation</h3>
 <p>Link to <a href="https://developer.salesforce.com/docs/component-library/bundle/lightning-input-right-text/documentation">lightning-input-rich-text documentation</a></p>
 
 <p>When you use <code>lightning-input-rich-text</code> in Salesforce, pasting an image from an HTTP source results in the display of a broken image icon. Mixed content is blocked in Salesforce to improve security. We recommend uploading the image as a static resource first before using it in the component. Alternatively, enable the image toolbar button so your users can upload the image to the org.</p>
-<h3 id='specification-4'>Specification</h3>
+<h3 id='specification-5'>Specification</h3>
 <p>Link to <a href="https://developer.salesforce.com/docs/component-library/bundle/lightning-input-right-text/specification">lightning-input-rich-text specification</a></p>
 
 <table><thead>
@@ -677,7 +693,7 @@ We recommend using the HTML <code>&lt;select&gt;</code> element on mobile instea
 <td>If present, an asterisk is displayed before the label when labelVisible is set to true.</td>
 </tr>
 </tbody></table>
-<h2 id='lightning-input'>lightning-input</h2><h3 id='documentation-11'>Documentation</h3>
+<h2 id='lightning-input'>lightning-input</h2><h3 id='documentation-13'>Documentation</h3>
 <p>Link to <a href="https://developer.salesforce.com/docs/component-library/bundle/lightning-input/documentation">lightning-input documentation</a></p>
 
 <p>The <code>label</code> attribute is required. If you don&#39;t want to display a label, specify the <code>variant=&quot;label-hidden&quot;</code> attribute. See <strong>Accessibility</strong> for more information.</p>
@@ -738,7 +754,7 @@ We recommend using the HTML <code>&lt;select&gt;</code> element on mobile instea
 <li>c-misc-modal</li>
 <li>c-wire-get-picklist-values</li>
 </ul>
-<h3 id='specification-5'>Specification</h3>
+<h3 id='specification-6'>Specification</h3>
 <p>Link to <a href="https://developer.salesforce.com/docs/component-library/bundle/lightning-input/specification">lightning-input specification</a></p>
 
 <table><thead>
@@ -756,7 +772,7 @@ We recommend using the HTML <code>&lt;select&gt;</code> element on mobile instea
 <td>Specifies the index of the first character to select in the input element. This attribute is supported only for text type. Use with selection-end to programmatically set or read the position of selected text.</td>
 </tr>
 </tbody></table>
-<h2 id='lightning-map'>lightning-map</h2><h3 id='documentation-12'>Documentation</h3>
+<h2 id='lightning-map'>lightning-map</h2><h3 id='documentation-14'>Documentation</h3>
 <p>Link to <a href="https://developer.salesforce.com/docs/component-library/bundle/lightning-map/documentation">lightning-map documentation</a></p>
 
 <p><strong>Marker Properties</strong></p>
@@ -1114,7 +1130,7 @@ export default class MapPolygonShape extends LightningElement {
         <span class="p">];</span>
     <span class="p">}</span>
 <span class="p">}</span>   
-</code></pre></div><h2 id='lightning-message-service'>lightning-message-service</h2><h3 id='documentation-13'>Documentation</h3>
+</code></pre></div><h2 id='lightning-message-service'>lightning-message-service</h2><h3 id='documentation-15'>Documentation</h3>
 <p>Link to <a href="https://developer.salesforce.com/docs/component-library/bundle/lightning-message-service/documentation">lightning-message-service documentation</a></p>
 
 <p><strong>LWC Recipes</strong></p>
@@ -1127,7 +1143,7 @@ export default class MapPolygonShape extends LightningElement {
 <li><code>c-lms-publisher-web-component</code></li>
 <li><code>c-lsm-suscriber-web-component</code></li>
 </ul>
-<h2 id='lightning-navigation'>lightning-navigation</h2><h3 id='documentation-14'>Documentation</h3>
+<h2 id='lightning-navigation'>lightning-navigation</h2><h3 id='documentation-16'>Documentation</h3>
 <p>Link to <a href="https://developer.salesforce.com/docs/component-library/bundle/lightning-navigation/documentation">lightning-navigation documentation</a></p>
 
 <p><strong>LWC Recipes</strong></p>
@@ -1135,7 +1151,7 @@ export default class MapPolygonShape extends LightningElement {
 <p>The <a href="https://github.com/trailheadapps/lwc-recipes">LWC Recipes GitHub repository</a> contains code examples for Lightning Web Components that you can test in an org.</p>
 
 <p>For a recipe that uses <code>lightning/navigation</code>, see the <code>c-nav-to-*</code> components in the LWC Recipes repo.</p>
-<h2 id='lightning-output-field'>lightning-output-field</h2><h3 id='specification-6'>Specification</h3>
+<h2 id='lightning-output-field'>lightning-output-field</h2><h3 id='specification-7'>Specification</h3>
 <p>Link to <a href="https://developer.salesforce.com/docs/component-library/bundle/lightning-output-field/specification">lightning-output-field specifications</a></p>
 
 <table><thead>
@@ -1156,7 +1172,7 @@ export default class MapPolygonShape extends LightningElement {
 <td>Reserved for internal use. The record and objectInfo data</td>
 </tr>
 </tbody></table>
-<h2 id='lightning-page-reference-utils'>lightning-page-reference-utils</h2><h3 id='documentation-15'>Documentation</h3>
+<h2 id='lightning-page-reference-utils'>lightning-page-reference-utils</h2><h3 id='documentation-17'>Documentation</h3>
 <p><strong>LWC Recipes</strong></p>
 
 <p>Link to <a href="https://developer.salesforce.com/docs/component-library/bundle/lightning-page-reference-utils/documentation">lightning-page-reference-utils documenation</a></p>
@@ -1164,7 +1180,7 @@ export default class MapPolygonShape extends LightningElement {
 <p>The <a href="https://github.com/trailheadapps/lwc-recipes">LWC Recipes GitHub repository</a> contains code examples for Lightning Web Components that you can test in an org.</p>
 
 <p>For a recipe that uses <code>lightning/pageReferenceUtils</code>, see the <code>c-nav-to-new-record-with-defaults</code> component.</p>
-<h2 id='lightning-platform-resource-loader'>lightning-platform-resource-loader</h2><h3 id='documentation-16'>Documentation</h3>
+<h2 id='lightning-platform-resource-loader'>lightning-platform-resource-loader</h2><h3 id='documentation-18'>Documentation</h3>
 <p>Link to <a href="https://developer.salesforce.com/docs/component-library/bundle/lightning-platform-resource-loader/documentation">lightning-platform-resource-loader documenation</a></p>
 
 <p><strong>LWC Recipes</strong></p>
@@ -1177,7 +1193,7 @@ export default class MapPolygonShape extends LightningElement {
 <li><code>c-libs-chartjs</code></li>
 <li><code>c-libs-d3</code></li>
 </ul>
-<h2 id='lightning-platform-show-toast-event'>lightning-platform-show-toast-event</h2><h3 id='documentation-17'>Documentation</h3>
+<h2 id='lightning-platform-show-toast-event'>lightning-platform-show-toast-event</h2><h3 id='documentation-19'>Documentation</h3>
 <p>Link to <a href="https://developer.salesforce.com/docs/component-library/bundle/lightning-platform-show-toast-event/documentation">lightning-platform-show-toast-event documenation</a></p>
 
 <p><strong>LWC Recipes</strong></p>
@@ -1190,7 +1206,7 @@ export default class MapPolygonShape extends LightningElement {
 <li>c-lds-create-record</li>
 <li>c-misc-notification</li>
 </ul>
-<h2 id='lightning-record-edit-form'>lightning-record-edit-form</h2><h3 id='documentation-18'>Documentation</h3>
+<h2 id='lightning-record-edit-form'>lightning-record-edit-form</h2><h3 id='documentation-20'>Documentation</h3>
 <p>Link to <a href="https://developer.salesforce.com/docs/component-library/bundle/lightning-record-edit-form/documentation">lightning-record-edit-formt documenation</a></p>
 
 <p><strong>Submitting Form Values with a Button</strong></p>
@@ -1241,11 +1257,11 @@ export default class MapPolygonShape extends LightningElement {
 <li><code>c-record-edit-form-dynamic-contact</code></li>
 <li><code>c-record-edit-form-static-contact</code></li>
 </ul>
-<h2 id='lightning-record-form'>lightning-record-form</h2><h3 id='documentation-19'>Documentation</h3>
+<h2 id='lightning-record-form'>lightning-record-form</h2><h3 id='documentation-21'>Documentation</h3>
 <p>Link to <a href="https://developer.salesforce.com/docs/component-library/bundle/lightning-record-form/documentation">lightning-record-form documentation</a></p>
 
 <p><strong>Custom Events</strong></p>
-<h3 id='specification-7'>Specification</h3>
+<h3 id='specification-8'>Specification</h3>
 <p><code>error</code></p>
 
 <p>The event fired when the record form returns a server-side error.</p>
@@ -1434,7 +1450,7 @@ export default class MapPolygonShape extends LightningElement {
 <li><code>c-record-form-dynamic-contact</code></li>
 <li><code>c-record-form-static-contact</code></li>
 </ul>
-<h2 id='lightning-record-view-form'>lightning-record-view-form</h2><h3 id='documentation-20'>Documentation</h3>
+<h2 id='lightning-record-view-form'>lightning-record-view-form</h2><h3 id='documentation-22'>Documentation</h3>
 <p>Link to <a href="https://developer.salesforce.com/docs/component-library/bundle/lightning-record-view-form/documentation">lightning-record-view-form documentation</a></p>
 
 <p><strong>Custom Events</strong></p>
@@ -1453,7 +1469,7 @@ export default class MapPolygonShape extends LightningElement {
 <li><code>c-record-view-form-dynamic-contact</code></li>
 <li><code>c-record-view-form-static-contact</code></li>
 </ul>
-<h2 id='lightning-relative-date-time'>lightning-relative-date-time</h2><h3 id='documentation-21'>Documentation</h3>
+<h2 id='lightning-relative-date-time'>lightning-relative-date-time</h2><h3 id='documentation-23'>Documentation</h3>
 <p>Link to <a href="https://developer.salesforce.com/docs/component-library/bundle/lightning-relative-date-time/documentation">lightning-relative-date-time documentation</a></p>
 
 <p>It formats the relative time for the current locale following the rules from <a href="http://cldr.unicode.org/translation/date-time-1/date-time-names">Unicode CLDR</a>.</p>
@@ -1461,7 +1477,7 @@ export default class MapPolygonShape extends LightningElement {
 <p>The user&#39;s language setting in an org determines the language displayed for the units of time. If the locale uses a different language, the output uses the language setting and ignores the locale. For example, if you set the locale to Arabic and the language to English, the output uses digits 0-9 for numbers and English instead of Arabic numerals to be consistent with the language on the user interface. For more information, see <a href="https://help.salesforce.com/articleView?id=faq_getstart_what_languages_does.htm">Supported Languages</a>.</p>
 
 <p>To obtain the language and locale information in your org, use the <code>@salesforce/i18n</code> scoped module. For more information, see <a href="https://developer.salesforce.com/docs/component-library/documentation/en/lwc/lwc.create_i18n">Access Internationalization Properties</a>.</p>
-<h2 id='lightning-textarea'>lightning-textarea</h2><h3 id='documentation-22'>Documentation</h3>
+<h2 id='lightning-textarea'>lightning-textarea</h2><h3 id='documentation-24'>Documentation</h3>
 <p>Link to <a href="https://developer.salesforce.com/docs/component-library/bundle/lightning-textarea/documentation">lightning-textarea documentation</a></p>
 
 <p><strong>Using Autocomplete</strong></p>
@@ -1469,7 +1485,7 @@ export default class MapPolygonShape extends LightningElement {
 <p>Textarea fields can be autofilled, based on your browser&#39;s support of the feature. The <code>autocomplete</code> attribute passes through its value to the browser.</p>
 
 <p>See <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete">MDN web docs</a> for more information.</p>
-<h2 id='lightning-tree'>lightning-tree</h2><h3 id='documentation-23'>Documentation</h3>
+<h2 id='lightning-tree'>lightning-tree</h2><h3 id='documentation-25'>Documentation</h3>
 <p>Link to <a href="https://developer.salesforce.com/docs/component-library/bundle/lightning-tree/documentation">lightning-tree documentation</a></p>
 
 <p><strong>LWC Recipes</strong></p>
@@ -1477,7 +1493,7 @@ export default class MapPolygonShape extends LightningElement {
 <p>The <a href="https://github.com/trailheadapps/lwc-recipes">LWC Recipes GitHub repository</a> contains code examples for Lightning Web Components that you can test in an org.</p>
 
 <p>For a recipe that uses <code>lightning-tree</code>, see the <code>c-wire-get-picklist-values-by-record-type</code> component in the LWC Recipes repo.</p>
-<h2 id='lightning-ui-object-info-api'>lightning-ui-object-info-api</h2><h3 id='documentation-24'>Documentation</h3>
+<h2 id='lightning-ui-object-info-api'>lightning-ui-object-info-api</h2><h3 id='documentation-26'>Documentation</h3>
 <p>Link to <a href="https://developer.salesforce.com/docs/component-library/bundle/lightning-ui-object-info-api/documentation">lightning-ui-object-info-api documentation</a></p>
 
 <p><strong>LWC Recipes</strong></p>
@@ -1485,7 +1501,7 @@ export default class MapPolygonShape extends LightningElement {
 <p>The <a href="https://github.com/trailheadapps/lwc-recipes">LWC Recipes GitHub repository</a> contains code examples for Lightning Web Components that you can test in an org.</p>
 
 <p>For a recipe that uses <code>lightning-tree</code>, see the <code>c-wire-get-picklist-values-by-record-type</code> component in the LWC Recipes repo.</p>
-<h2 id='lightning-ui-record-api'>lightning-ui-record-api</h2><h3 id='documentation-25'>Documentation</h3>
+<h2 id='lightning-ui-record-api'>lightning-ui-record-api</h2><h3 id='documentation-27'>Documentation</h3>
 <p>Link to <a href="https://developer.salesforce.com/docs/component-library/bundle/lightning-ui-record-api/documentation">lightning-ui-record-api documentation</a></p>
 
 <p><strong>LWC Recipes</strong></p>
@@ -1499,22 +1515,6 @@ export default class MapPolygonShape extends LightningElement {
 <li><code>c-wire-get-record-static-contact</code></li>
 <li><code>c-wire-get-record-user</code></li>
 </ul>
-<h1 id='updates-mar-3-2021'>Updates: Mar 3, 2021</h1><h2 id='lightning-datatable-2'>lightning-datatable</h2><h3 id='documentation-26'>Documentation</h3>
-<p><em>All of the Accessibility for Custom Data Types information was removed and replaced with:</em></p>
-
-<p>Accessibility and keyboard navigation on custom data types are currently not supported.</p>
-
-<p><a href="https://github.com/jamigibbs/sf-lwc-docs-diff/commit/392f1e1ce29412196aa72d2b04379659ec9d33ab#diff-fc03c29ad2b8ccb62e712a25616a0df5bb3072d88af5b7ca880121d214702462">Reference the diff here</a></p>
-<h2 id='lightning-file-upload'>lightning-file-upload</h2><h3 id='documentation-27'>Documentation</h3>
-<p>When a guest user uploads files, the returned list includes only the name<code>and</code>ContentVersionId`.</p>
-
-<p><code>ContentVersionId</code>: The ContentVersion Id in the format <code>068XXXXXXXXXXXX</code>.</p>
-
-<p>Link to <a href="https://developer.salesforce.com/docs/component-library/bundle/lightning-file-upload/documentation">lightning-file-upload documentation</a></p>
-<h3 id='specification-8'>Specification</h3>
-<p>Comma-separated list of file extensions that can be uploaded in the format [&#39;.ext&#39;], such as [&#39;.pdf&#39;, &#39;.jpg&#39;, &#39;.png&#39;].</p>
-
-<p>Link to <a href="https://developer.salesforce.com/docs/component-library/bundle/lightning-file-upload/specification">lightning-file-upload specifications</a></p>
 
       </div>
       <div class="dark-box">
